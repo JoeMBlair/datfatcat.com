@@ -1,5 +1,5 @@
 html {
-	background-color: #85A3AF;
+	background-color: #E2FBFB;
 	font-family: Verdana, sans-serif;
 }
 
@@ -40,7 +40,7 @@ div {
 	font-size: 70px;
 	font-family: Verdana, sans-serif;
 	margin: 15px 0px 0px 150px;
-	color: white;
+	color: #7BCCCC;
 }
 
 .left {
@@ -48,7 +48,6 @@ div {
 	width: 140px;
 	margin-top: 30px;
 	margin-left: 10px;
-	background-color: red;
 }
 
 .right {
@@ -57,14 +56,13 @@ div {
 	max-width: 1200px;
 	min-height: 400px;
 	margin-bottom: 10px;
-	background-color: #7396A4;
+	background-color: #C9F3F3;
 	margin-left: 160px;
 	padding: 20px;
 }
 
 .block {
 	height: 140px;
-	background-color: #B3D9FF;
 	border-radius: 0px;
 	margin-top: -20px;
 }
