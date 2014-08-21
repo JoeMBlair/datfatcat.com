@@ -45,6 +45,7 @@ header h1 {
 
 .current-page{
 	background: #2E3D4D;
+	color: #ADCED9;
 }
 nav {
 	background-color: #396172;
@@ -69,6 +70,7 @@ nav ul li {
 }
 nav ul li:hover {
 	background-color: #FF5900;
+	color: #F0F1CF;
 }
 nav a:link {
 	color: #FFF;
