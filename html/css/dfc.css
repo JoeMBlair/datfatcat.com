@@ -64,7 +64,8 @@ nav ul li {
 	list-style-type: none;
 	display: inline;
 	padding: 10px 15px 10px 15px;
-	margin: 0 -2px;
+	/* negative margin so the highlight touches the box next to it */
+	margin: 0 -3px 0 -3px;
 	line-height: 35px;
 	font-size: 22px;
 	font-family: 'Titillium Web', sans-serif;
