@@ -68,7 +68,7 @@ nav ul li {
 	line-height: 35px; /* Line height matches the height of the nav bar to keep the text centered. */
 	font-size: 22px;
 	font-family: 'Titillium Web', sans-serif;
-	margin: 0 -3px 0 -3px; /* Negative margin so the highlight touches the box next to it. */
+	margin: 0 -3px -5px -3px; /* Negative margin so the highlight touches the box next to it */
 }
 nav ul li:hover {
 	background-color: #FF5900;
@@ -76,7 +76,7 @@ nav ul li:hover {
 }
 nav a:link {
 	color: #FFF;
-	padding: 10px 15px 10px 15px; 
+	padding: 11px 15px 11px 15px; 
 }
 nav a:visited {
 	color: #FFF;
