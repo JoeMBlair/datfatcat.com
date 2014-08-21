@@ -46,6 +46,8 @@ header h1 {
 .current-page{
 	background: #2E3D4D;
 	color: #ADCED9;
+	cursor: default;
+	padding: 10px 15px 10px 15px;
 }
 nav {
 	background-color: #396172;
@@ -63,12 +65,11 @@ nav ul {
 nav ul li {
 	list-style-type: none;
 	display: inline;
-	padding: 10px 15px 10px 15px;
 	/* negative margin so the highlight touches the box next to it */
-	margin: 0 -3px 0 -3px;
 	line-height: 35px;
 	font-size: 22px;
 	font-family: 'Titillium Web', sans-serif;
+	margin: 0 -3px 0 -3px;
 }
 nav ul li:hover {
 	background-color: #FF5900;
@@ -76,6 +77,7 @@ nav ul li:hover {
 }
 nav a:link {
 	color: #FFF;
+	padding: 10px 15px 10px 15px;
 }
 nav a:visited {
 	color: #FFF;
