@@ -67,6 +67,7 @@ nav ul li {
 	margin: 0 -2px;
 	line-height: 35px;
 	font-size: 22px;
+	font-family: 'Titillium Web', sans-serif;
 }
 nav ul li:hover {
 	background-color: #FF5900;
