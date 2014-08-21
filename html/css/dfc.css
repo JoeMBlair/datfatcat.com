@@ -1,13 +1,16 @@
 * {
-	/*outline: red 1px dashed;*/
+	outline: red 1px dashed;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-	background-color: #E2FBFB;
+	background-color: #F0F1CF;
 	font-family: Verdana, sans-serif;
 }
 
-p {
+main p {
+	color: #2E3D4D;
 	line-height: 120%;
 }
 
@@ -22,7 +25,7 @@ header {
 	position: relative;
 	z-index: 1;
 	height: 100px;
-	margin: 0px auto 10px auto;
+	margin: 0px auto 0 auto;
 	padding-left: 10px;
 }
 
@@ -34,20 +37,22 @@ header img {
 }
 
 header h1 {
+	color: #FF5900;
 	float: left;
 	font-size: 70px;
-	font-family: Verdana, sans-serif;
-	margin: 15px 0px 0px 10px;
-	color: #7BCCCC;
+	font-family: 'Squada One', sans-serif;
+	margin: 40px 0 0 0;
+	padding: 0;
+	bottom: 0;
 }
 
 main {
+	background-color: #ADCED9;
 	float: left;
 	min-width: 410px;
 	max-width: 1200px;
 	min-height: 400px;
 	margin: 0 20px 10px 160px ;
-	background-color: #C9F3F3;
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -92,7 +97,7 @@ footer {
 	height: 25px;
 	min-width: 450px;
 	max-width: 1200px;
-	color: #C2C2C2;
+	color: #396172;
 	text-align: right;
 	margin: 0 20px 0 0;
 }
