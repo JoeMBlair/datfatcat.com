@@ -4,7 +4,7 @@
 }
 html {
 	background-color: #F0F1CF;
-	font-family: Verdana, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 h2 {
 	color: #333;
-	font-family: 'Squada One', sans-serif;
+	font-family: 'Squada One', Arial, Helvetica, sans-serif;
 	font-size: 40px;
 	padding: 0;
 	margin: 0;
@@ -38,9 +38,9 @@ header h1 {
 	color: #FF7124;
 	position: absolute;
 	font-size: 110px;
-	font-family: 'Squada One', sans-serif;
-	margin: 33px 0 0 150px;
-	padding: 0;
+	font-family: 'Squada One', Arial, Helvetica, sans-serif;
+	margin: 4.5% 0 0 150px;
+	line-height: 70%;
 }
 
 .current-page{
@@ -67,7 +67,7 @@ nav ul li {
 	display: inline;
 	line-height: 35px; /* Line height matches the height of the nav bar to keep the text centered. */
 	font-size: 22px;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', "Trebuchet MS", Helvetica, sans-serif;
 	margin: 0 -3px -5px -3px; /* Negative margin so the highlight touches the box next to it */
 }
 nav ul li:hover {
@@ -103,15 +103,6 @@ main img {
 main p {
 	color: #2E3D4D;
 	line-height: 120%;
-}
-
-.block {
-	height: 140px;
-}
-.block img {
-	display: block;
-	width: 140px;
-	height: 140px;
 }
 
 footer {
