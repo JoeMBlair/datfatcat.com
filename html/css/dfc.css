@@ -97,15 +97,17 @@ main {
 main img {
 	display: block;
 	margin: 15px 0px 15px 15px;
-	width: 500px;
-	height: 375px;
+	width: 400px;
+	height: 275px;
 	float: right;
+	-webkit-box-shadow: 4px 4px #86B8C8;
+	        box-shadow: 4px 4px #86B8C8;
+	border: white 2px solid;
 }
 main p {
 	color: #2E3D4D;
 	line-height: 120%;
 }
-
 footer {
 	color: #CDCE9B;
 	clear: both;
