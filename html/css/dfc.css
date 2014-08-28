@@ -37,9 +37,10 @@ header img {
 header h1 {
 	color: #FF7124;
 	position: absolute;
+	bottom: -2px;
 	font-size: 110px;
 	font-family: 'Squada One', Arial, Helvetica, sans-serif;
-	margin: 53px 0 0 150px;
+	margin: 0px 0 0 150px;
 	line-height: 70%;
 	overflow: hidden;
 }
@@ -48,7 +49,7 @@ header h1 {
 	background: #2E3D4D;
 	color: #ADCED9;
 	cursor: default;
-	padding: 10px 15px 10px 15px;
+	padding: 0 15px 0 15px;
 }
 nav {
 	background-color: #396172;
@@ -64,8 +65,13 @@ nav ul {
 	float: right;
 }
 nav ul li {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 	list-style-type: none;
-	display: inline;
+	display: table-cell;
 	line-height: 35px; /* Line height matches the height of the nav bar to keep the text centered. */
 	font-size: 22px;
 	font-family: 'Titillium Web', "Trebuchet MS", Helvetica, sans-serif;
@@ -73,17 +79,22 @@ nav ul li {
 }
 nav ul li:hover {
 	background-color: #FF5900;
-	color: #F0F1CF;
+	color: #000;
 }
 nav a:link {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 	color: #FFF;
-	padding: 11px 15px 11px 15px; 
+	padding: 10px 15px 10px 15px; 
 }
 nav a:visited {
 	color: #FFF;
 }
 nav a:hover {
-	color: #F0F1CF;
+	color: #000;
 }
 
 main {
@@ -93,6 +104,7 @@ main {
 	padding: 30px 30px 30px 30px;
 	border-radius: 0 0 10px 10px;
 	overflow: hidden;
+	display: block;
 }
 main img {
 	display: block;
@@ -101,7 +113,7 @@ main img {
 	height: 275px;
 	float: right;
 	-webkit-box-shadow: 4px 4px #86B8C8;
-	        box-shadow: 4px 4px #86B8C8;
+					box-shadow: 4px 4px #86B8C8;
 	border: white 2px solid;
 }
 main p {
