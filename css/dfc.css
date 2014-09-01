@@ -23,6 +23,7 @@ h2 {
 
 header {
 	position: relative;
+	z-index: 1;
 	height: 130px;
 	margin: 0 0 0 20px;
 	padding-left: 10px;
@@ -37,10 +38,12 @@ header img {
 header h1 {
 	color: #FF7124;
 	position: absolute;
-	font-size: 112px;
+	bottom: -2px;
+	font-size: 110px;
 	font-family: 'Squada One', Arial, Helvetica, sans-serif;
-	margin: 55px 0 0 150px;
-	line-height: 66.5%;
+	margin: 0px 0 0 150px;
+	line-height: 70%;
+	overflow: hidden;
 }
 
 .current-page{
