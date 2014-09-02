@@ -42,7 +42,7 @@ header h1 {
 	line-height: 66.5%;
 }
 
-.current-page{
+#current-page{
 	background: #2E3D4D;
 	color: #ADCED9;
 	cursor: default;
