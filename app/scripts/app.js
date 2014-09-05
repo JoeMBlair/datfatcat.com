@@ -2,14 +2,13 @@
 
 /**
  * @ngdoc overview
- * @name angularJsApp
+ * @name dfcApp
  * @description
- * # angularJsApp
+ * # dfcApp
  *
  * Main module of the application.
  */
-angular
-  .module('angularJsApp', [
+angular.module('dfcApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
