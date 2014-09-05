@@ -3,7 +3,7 @@
 describe('Controller: AboutCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('angularJsApp'));
+  beforeEach(module('dfcApp'));
 
   var AboutCtrl,
     scope;
